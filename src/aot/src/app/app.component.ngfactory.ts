@@ -27,11 +27,19 @@ export function View_AppComponent_0(l:any):import1.ɵViewDefinition {
     ]
     )),
     (l()(),import1.ɵted((null as any),['\n'])),
-      (l()(),import1.ɵeld(0,(null as any),(null as any),2,'a',[[
+    (l()(),import1.ɵeld(0,(null as any),(null as any),5,'a',[
+      [
         'routerLink',
         'main'
       ]
-    ],[
+      ,
+      [
+        'routerLinkActive',
+        'active'
+      ]
+
+    ]
+    ,[
       [
         1,
         'target',
@@ -57,7 +65,11 @@ export function View_AppComponent_0(l:any):import1.ɵViewDefinition {
       }
       return ad;
     },(null as any),(null as any))),
-    import1.ɵdid(335872,(null as any),0,import2.RouterLinkWithHref,[
+      import1.ɵdid(335872,[[
+        2,
+        4
+      ]
+    ],0,import2.RouterLinkWithHref,[
       import2.Router,
       import2.ActivatedRoute,
       import3.LocationStrategy
@@ -67,13 +79,34 @@ export function View_AppComponent_0(l:any):import1.ɵViewDefinition {
         'routerLink'
       ]
     },(null as any)),
+    import1.ɵdid(860160,(null as any),2,import2.RouterLinkActive,[
+      import2.Router,
+      import1.ElementRef,
+      import1.Renderer,
+      import1.ChangeDetectorRef
+    ]
+      ,{routerLinkActive: [
+        0,
+        'routerLinkActive'
+      ]
+    },(null as any)),
+    import1.ɵqud(301989888,1,{links: 1}),
+    import1.ɵqud(301989888,2,{linksWithHrefs: 1}),
     (l()(),import1.ɵted((null as any),['main'])),
     (l()(),import1.ɵted((null as any),['\n'])),
-      (l()(),import1.ɵeld(0,(null as any),(null as any),2,'a',[[
+    (l()(),import1.ɵeld(0,(null as any),(null as any),5,'a',[
+      [
         'routerLink',
         'page2'
       ]
-    ],[
+      ,
+      [
+        'routerLinkActive',
+        'active'
+      ]
+
+    ]
+    ,[
       [
         1,
         'target',
@@ -94,12 +127,16 @@ export function View_AppComponent_0(l:any):import1.ɵViewDefinition {
     ],(v,en,$event) => {
       var ad:boolean = true;
       if (('click' === en)) {
-        const pd_0:any = ((<any>import1.ɵnov(v,8).onClick($event.button,$event.ctrlKey,$event.metaKey)) !== false);
+        const pd_0:any = ((<any>import1.ɵnov(v,11).onClick($event.button,$event.ctrlKey,$event.metaKey)) !== false);
         ad = (pd_0 && ad);
       }
       return ad;
     },(null as any),(null as any))),
-    import1.ɵdid(335872,(null as any),0,import2.RouterLinkWithHref,[
+      import1.ɵdid(335872,[[
+        4,
+        4
+      ]
+    ],0,import2.RouterLinkWithHref,[
       import2.Router,
       import2.ActivatedRoute,
       import3.LocationStrategy
@@ -109,13 +146,34 @@ export function View_AppComponent_0(l:any):import1.ɵViewDefinition {
         'routerLink'
       ]
     },(null as any)),
+    import1.ɵdid(860160,(null as any),2,import2.RouterLinkActive,[
+      import2.Router,
+      import1.ElementRef,
+      import1.Renderer,
+      import1.ChangeDetectorRef
+    ]
+      ,{routerLinkActive: [
+        0,
+        'routerLinkActive'
+      ]
+    },(null as any)),
+    import1.ɵqud(301989888,3,{links: 1}),
+    import1.ɵqud(301989888,4,{linksWithHrefs: 1}),
     (l()(),import1.ɵted((null as any),['page2'])),
     (l()(),import1.ɵted((null as any),['\n'])),
-      (l()(),import1.ɵeld(0,(null as any),(null as any),2,'a',[[
+    (l()(),import1.ɵeld(0,(null as any),(null as any),5,'a',[
+      [
         'routerLink',
         '/'
       ]
-    ],[
+      ,
+      [
+        'routerLinkActive',
+        'active'
+      ]
+
+    ]
+    ,[
       [
         1,
         'target',
@@ -136,12 +194,16 @@ export function View_AppComponent_0(l:any):import1.ɵViewDefinition {
     ],(v,en,$event) => {
       var ad:boolean = true;
       if (('click' === en)) {
-        const pd_0:any = ((<any>import1.ɵnov(v,12).onClick($event.button,$event.ctrlKey,$event.metaKey)) !== false);
+        const pd_0:any = ((<any>import1.ɵnov(v,18).onClick($event.button,$event.ctrlKey,$event.metaKey)) !== false);
         ad = (pd_0 && ad);
       }
       return ad;
     },(null as any),(null as any))),
-    import1.ɵdid(335872,(null as any),0,import2.RouterLinkWithHref,[
+      import1.ɵdid(335872,[[
+        6,
+        4
+      ]
+    ],0,import2.RouterLinkWithHref,[
       import2.Router,
       import2.ActivatedRoute,
       import3.LocationStrategy
@@ -151,6 +213,19 @@ export function View_AppComponent_0(l:any):import1.ɵViewDefinition {
         'routerLink'
       ]
     },(null as any)),
+    import1.ɵdid(860160,(null as any),2,import2.RouterLinkActive,[
+      import2.Router,
+      import1.ElementRef,
+      import1.Renderer,
+      import1.ChangeDetectorRef
+    ]
+      ,{routerLinkActive: [
+        0,
+        'routerLinkActive'
+      ]
+    },(null as any)),
+    import1.ɵqud(301989888,5,{links: 1}),
+    import1.ɵqud(301989888,6,{linksWithHrefs: 1}),
     (l()(),import1.ɵted((null as any),['home'])),
     (l()(),import1.ɵted((null as any),['\n'])),
     (l()(),import1.ɵeld(8388608,(null as any),(null as any),1,'router-outlet',([] as any[]),(null as any),(null as any),(null as any),(null as any),(null as any))),
@@ -170,10 +245,16 @@ export function View_AppComponent_0(l:any):import1.ɵViewDefinition {
   ,(ck,v) => {
     const currVal_3:any = 'main';
     ck(v,4,0,currVal_3);
-    const currVal_6:any = 'page2';
-    ck(v,8,0,currVal_6);
-    const currVal_9:any = '/';
-    ck(v,12,0,currVal_9);
+    const currVal_4:any = 'active';
+    ck(v,5,0,currVal_4);
+    const currVal_7:any = 'page2';
+    ck(v,11,0,currVal_7);
+    const currVal_8:any = 'active';
+    ck(v,12,0,currVal_8);
+    const currVal_11:any = '/';
+    ck(v,18,0,currVal_11);
+    const currVal_12:any = 'active';
+    ck(v,19,0,currVal_12);
   },(ck,v) => {
     var co:import4.AppComponent = v.component;
     const currVal_0:any = co.title;
@@ -181,12 +262,12 @@ export function View_AppComponent_0(l:any):import1.ɵViewDefinition {
     const currVal_1:any = import1.ɵnov(v,4).target;
     const currVal_2:any = import1.ɵnov(v,4).href;
     ck(v,3,0,currVal_1,currVal_2);
-    const currVal_4:any = import1.ɵnov(v,8).target;
-    const currVal_5:any = import1.ɵnov(v,8).href;
-    ck(v,7,0,currVal_4,currVal_5);
-    const currVal_7:any = import1.ɵnov(v,12).target;
-    const currVal_8:any = import1.ɵnov(v,12).href;
-    ck(v,11,0,currVal_7,currVal_8);
+    const currVal_5:any = import1.ɵnov(v,11).target;
+    const currVal_6:any = import1.ɵnov(v,11).href;
+    ck(v,10,0,currVal_5,currVal_6);
+    const currVal_9:any = import1.ɵnov(v,18).target;
+    const currVal_10:any = import1.ɵnov(v,18).href;
+    ck(v,17,0,currVal_9,currVal_10);
   });
 }
 function View_AppComponent_Host_0(l:any):import1.ɵViewDefinition {
@@ -197,4 +278,4 @@ function View_AppComponent_Host_0(l:any):import1.ɵViewDefinition {
   ,(null as any),(null as any));
 }
 export const AppComponentNgFactory:import1.ComponentFactory<import4.AppComponent> = import1.ɵccf('app-root',import4.AppComponent,View_AppComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiRDovV29yay9hbmd1bGFyMi1zZXJ2ZXItdGVzdC9zcmMvYXBwL2FwcC5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vRDovV29yay9hbmd1bGFyMi1zZXJ2ZXItdGVzdC9zcmMvYXBwL2FwcC5jb21wb25lbnQudHMiLCJuZzovLy9EOi9Xb3JrL2FuZ3VsYXIyLXNlcnZlci10ZXN0L3NyYy9hcHAvYXBwLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vRDovV29yay9hbmd1bGFyMi1zZXJ2ZXItdGVzdC9zcmMvYXBwL2FwcC5jb21wb25lbnQudHMuQXBwQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGgxPlxuICB7e3RpdGxlfX1cbjwvaDE+XG48YSByb3V0ZXJMaW5rPVwibWFpblwiPm1haW48L2E+XG48YSByb3V0ZXJMaW5rPVwicGFnZTJcIj5wYWdlMjwvYT5cbjxhIHJvdXRlckxpbms9XCIvXCI+aG9tZTwvYT5cbjxyb3V0ZXItb3V0bGV0Pjwvcm91dGVyLW91dGxldD5cbiIsIjxhcHAtcm9vdD48L2FwcC1yb290PiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUNBQTtJQUFJO01BQUE7TUFBQTtJQUFBO0lBQUE7SUFFQztNQUNMO1FBQUE7UUFBQTtNQUFBO0lBQUE7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7O0lBQUE7T0FBQTtRQUFBO1FBQUE7TUFBQTtJQUFBO01BQUE7TUFBQTtRQUFBO1FBQUE7TUFBQTtNQUFBO0lBQUE7Z0JBQUE7Ozs7SUFBQTtPQUFBO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFBcUI7SUFBUTtNQUM3QjtRQUFBO1FBQUE7TUFBQTtJQUFBO01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztJQUFBO09BQUE7UUFBQTtRQUFBO01BQUE7SUFBQTtNQUFBO01BQUE7UUFBQTtRQUFBO01BQUE7TUFBQTtJQUFBO2dCQUFBOzs7O0lBQUE7T0FBQTtRQUFBO1FBQUE7TUFBQTtJQUFBO0lBQXNCO0lBQVM7TUFDL0I7UUFBQTtRQUFBO01BQUE7SUFBQTtNQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7SUFBQTtPQUFBO1FBQUE7UUFBQTtNQUFBO0lBQUE7TUFBQTtNQUFBO1FBQUE7UUFBQTtNQUFBO01BQUE7SUFBQTtnQkFBQTs7OztJQUFBO09BQUE7UUFBQTtRQUFBO01BQUE7SUFBQTtJQUFrQjtJQUFRO0lBQzFCO2dCQUFBOzs7O01BQUE7UUFBQTtRQUFBO01BQUE7O0lBQUE7S0FBQTtJQUErQjs7O0lBSDVCO0lBQUgsU0FBRyxTQUFIO0lBQ0c7SUFBSCxTQUFHLFNBQUg7SUFDRztJQUFILFVBQUcsU0FBSDs7O0lBTEk7SUFBQTtJQUdKO0lBQUE7SUFBQSxTQUFBLG1CQUFBO0lBQ0E7SUFBQTtJQUFBLFNBQUEsbUJBQUE7SUFDQTtJQUFBO0lBQUEsVUFBQSxtQkFBQTs7Ozs7SUNMQTtnQkFBQTs7OzsifQ==
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiRDovV29yay9hbmd1bGFyMi1zZXJ2ZXItdGVzdC9iY2xpZ2h0L3NyYy9hcHAvYXBwLmNvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9EOi9Xb3JrL2FuZ3VsYXIyLXNlcnZlci10ZXN0L2JjbGlnaHQvc3JjL2FwcC9hcHAuY29tcG9uZW50LnRzIiwibmc6Ly8vRDovV29yay9hbmd1bGFyMi1zZXJ2ZXItdGVzdC9iY2xpZ2h0L3NyYy9hcHAvYXBwLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vRDovV29yay9hbmd1bGFyMi1zZXJ2ZXItdGVzdC9iY2xpZ2h0L3NyYy9hcHAvYXBwLmNvbXBvbmVudC50cy5BcHBDb21wb25lbnRfSG9zdC5odG1sIl0sInNvdXJjZXNDb250ZW50IjpbIiAiLCI8aDE+XG4gIHt7dGl0bGV9fVxuPC9oMT5cbjxhIHJvdXRlckxpbms9XCJtYWluXCIgcm91dGVyTGlua0FjdGl2ZT1cImFjdGl2ZVwiPm1haW48L2E+XG48YSByb3V0ZXJMaW5rPVwicGFnZTJcIiByb3V0ZXJMaW5rQWN0aXZlPVwiYWN0aXZlXCI+cGFnZTI8L2E+XG48YSByb3V0ZXJMaW5rPVwiL1wiIHJvdXRlckxpbmtBY3RpdmU9XCJhY3RpdmVcIj5ob21lPC9hPlxuPHJvdXRlci1vdXRsZXQ+PC9yb3V0ZXItb3V0bGV0PlxuIiwiPGFwcC1yb290PjwvYXBwLXJvb3Q+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQ0FBO0lBQUk7TUFBQTtNQUFBO0lBQUE7SUFBQTtJQUVDO0lBQ0w7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7SUFBQTtLQUFBO01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztJQUFBO09BQUE7UUFBQTtRQUFBO01BQUE7SUFBQTtNQUFBO01BQUE7UUFBQTtRQUFBO01BQUE7TUFBQTtJQUFBO2tCQUFBO1FBQUE7UUFBQTtNQUFBO0lBQUE7Ozs7SUFBQTtPQUFBO1FBQUE7UUFBQTtNQUFBO0lBQUE7Z0JBQUE7Ozs7O0lBQUE7T0FBQTtRQUFBO1FBQUE7TUFBQTtJQUFBO2dCQUFBO2dCQUFBO0lBQStDO0lBQVE7SUFDdkQ7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7SUFBQTtLQUFBO01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztJQUFBO09BQUE7UUFBQTtRQUFBO01BQUE7SUFBQTtNQUFBO01BQUE7UUFBQTtRQUFBO01BQUE7TUFBQTtJQUFBO2tCQUFBO1FBQUE7UUFBQTtNQUFBO0lBQUE7Ozs7SUFBQTtPQUFBO1FBQUE7UUFBQTtNQUFBO0lBQUE7Z0JBQUE7Ozs7O0lBQUE7T0FBQTtRQUFBO1FBQUE7TUFBQTtJQUFBO2dCQUFBO2dCQUFBO0lBQWdEO0lBQVM7SUFDekQ7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7SUFBQTtLQUFBO01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztJQUFBO09BQUE7UUFBQTtRQUFBO01BQUE7SUFBQTtNQUFBO01BQUE7UUFBQTtRQUFBO01BQUE7TUFBQTtJQUFBO2tCQUFBO1FBQUE7UUFBQTtNQUFBO0lBQUE7Ozs7SUFBQTtPQUFBO1FBQUE7UUFBQTtNQUFBO0lBQUE7Z0JBQUE7Ozs7O0lBQUE7T0FBQTtRQUFBO1FBQUE7TUFBQTtJQUFBO2dCQUFBO2dCQUFBO0lBQTRDO0lBQVE7SUFDcEQ7Z0JBQUE7Ozs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7SUFBQTtLQUFBO0lBQStCOzs7SUFINUI7SUFBSCxTQUFHLFNBQUg7SUFBcUI7SUFBckIsU0FBcUIsU0FBckI7SUFDRztJQUFILFVBQUcsU0FBSDtJQUFzQjtJQUF0QixVQUFzQixTQUF0QjtJQUNHO0lBQUgsVUFBRyxVQUFIO0lBQWtCO0lBQWxCLFVBQWtCLFVBQWxCOzs7SUFMSTtJQUFBO0lBR0o7SUFBQTtJQUFBLFNBQUEsbUJBQUE7SUFDQTtJQUFBO0lBQUEsVUFBQSxtQkFBQTtJQUNBO0lBQUE7SUFBQSxVQUFBLG9CQUFBOzs7OztJQ0xBO2dCQUFBOzs7OyJ9

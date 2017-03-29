@@ -4,9 +4,13 @@ import { enableProdMode } from '@angular/core';
 import { AppServerModuleNgFactory } from './aot/src/app/app.server-module.ngfactory';
 import * as express from 'express';
 import * as fs from 'fs';
-
+let templateCache = {};
 function ngExpressEngine() {
   return function (filePath, options, callback) {
+    if (!templateCache[filePath]) {
+      let file = fs.readFileSync(filePath);
+      templateCache[filePath] = file.toString();
+    }
     renderModuleFactory(AppServerModuleNgFactory, {
       document: fs.readFileSync(filePath).toString(),
       url: options.req.url
@@ -39,5 +43,11 @@ app.get('/main*', (req, res) => {
   res.render('index', { req });
 });
 
+app.use(express.static('.'));
 
 app.listen(8000, () => console.log('listening...'));
+
+
+
+
+
