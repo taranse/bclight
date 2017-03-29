@@ -79,7 +79,7 @@ module.exports = {
       },
       {
         "exclude": [
-          path.join(process.cwd(), "src\\styles.scss")
+          path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.css$/,
         "loaders": [
@@ -90,7 +90,7 @@ module.exports = {
       },
       {
         "exclude": [
-          path.join(process.cwd(), "src\\styles.scss")
+          path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.scss$|\.sass$/,
         "loaders": [
@@ -102,7 +102,7 @@ module.exports = {
       },
       {
         "exclude": [
-          path.join(process.cwd(), "src\\styles.scss")
+          path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.less$/,
         "loaders": [
@@ -114,7 +114,7 @@ module.exports = {
       },
       {
         "exclude": [
-          path.join(process.cwd(), "src\\styles.scss")
+          path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.styl$/,
         "loaders": [
@@ -126,7 +126,7 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "src\\styles.scss")
+          path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.css$/,
         "loaders": ExtractTextPlugin.extract({
@@ -140,7 +140,7 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "src\\styles.scss")
+          path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.scss$|\.sass$/,
         "loaders": ExtractTextPlugin.extract({
@@ -155,7 +155,7 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "src\\styles.scss")
+          path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.less$/,
         "loaders": ExtractTextPlugin.extract({
@@ -170,7 +170,7 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "src\\styles.scss")
+          path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.styl$/,
         "loaders": ExtractTextPlugin.extract({
@@ -197,14 +197,14 @@ module.exports = {
         "favicon.ico"
       ],
       "globOptions": {
-        "cwd": "D:\\Work\\angular2-server-test\\src",
+        "cwd": "D:/Work/angular2-server-test/bclight/src",
         "dot": true,
         "ignore": "**/.gitkeep"
       }
     }),
     new ProgressPlugin(),
     new HtmlWebpackPlugin({
-      "template": "./src\\index.html",
+      "template": "./src/index.html",
       "filename": "./index.html",
       "hash": false,
       "inject": true,
@@ -286,7 +286,7 @@ module.exports = {
     new AotPlugin({
       "entryModule": __dirname + "/src/app/app.server-module.ts#AppServerModule",
       "hostReplacementPaths": {
-        "environments\\environment.ts": "environments\\environment.ts"
+        "environments/environment.ts": "environments/environment.ts"
       },
       "exclude": [],
       "tsConfigPath": "./tsconfig.server.json",
